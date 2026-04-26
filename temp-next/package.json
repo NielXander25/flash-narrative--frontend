@@ -21,6 +21,10 @@
     "@radix-ui/react-dialog": "^1.0.0",
     "@radix-ui/react-label": "^2.0.0",
     "@radix-ui/react-slot": "^1.0.0"
+    "recharts": "^2.15.0",
+    "@radix-ui/react-slider": "^1.0.0",
+    "@radix-ui/react-radio-group": "^1.0.0",
+    "@radix-ui/react-select": "^2.0.0"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.0",
