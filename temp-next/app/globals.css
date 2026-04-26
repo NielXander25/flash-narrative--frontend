@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Optional animation lib (only if installed) */
-@import "tw-animate-css";
-
 /* =========================
    DESIGN TOKENS (THEME)
 ========================= */
