@@ -7,7 +7,12 @@ import { NAV_ITEMS, APP } from "@/lib/constants";
 import { Logo } from "./Logo";
 import { cn } from "@/lib/utils";
 
-export function Sidebar({ open = true, onNavigate }) {
+interface SidebarProps {
+  open?: boolean;
+  onNavigate?: () => void;
+}
+
+export function Sidebar({ open = true, onNavigate }: SidebarProps) {
   const path = usePathname();
 
   const isActive = (to: string) =>
