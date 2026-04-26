@@ -1,0 +1,31 @@
+{
+  "name": "flash-narrative-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "lucide-react": "^0.575.0",
+    "sonner": "^2.0.7",
+    "clsx": "^2.1.1",
+    "class-variance-authority": "^0.7.1",
+    "tailwind-merge": "^3.5.0",
+    "@radix-ui/react-checkbox": "^1.0.0",
+    "@radix-ui/react-switch": "^1.0.0",
+    "@radix-ui/react-dialog": "^1.0.0",
+    "@radix-ui/react-label": "^2.0.0",
+    "@radix-ui/react-slot": "^1.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.39",
+    "autoprefixer": "^10.4.18",
+    "typescript": "^5.8.3"
+  }
+}
