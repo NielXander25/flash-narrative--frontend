@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import logo from "@/assets/flash-narrative-logo.png";
 import { cn } from "@/lib/utils";
 
@@ -11,13 +12,12 @@ interface LogoProps {
 export function Logo({ withText = true, className, size = 32 }: LogoProps) {
   return (
     <Link href="/" className={cn("flex items-center gap-2.5", className)} aria-label="Flash Narrative home">
-      <img
+      <Image
         src={logo}
         alt="Flash Narrative logo"
         width={size}
         height={size}
         className="rounded-md"
-        style={{ width: size, height: size, objectFit: "cover" }}
       />
       {withText && (
         <div className="leading-tight">
