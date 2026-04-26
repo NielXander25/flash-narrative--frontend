@@ -152,7 +152,7 @@ export const SUGGESTED_COMPETITORS: Record<string, string[]> = {
 
 // Backend API endpoint (override via VITE_API_BASE)
 export const API_BASE: string =
- (import.meta.env.VITE_API_BASE as string | undefined) ?? "http://localhost:8000/api/v1";
+ (process.env.NEXT_PUBLIC_API_BASE as string | undefined) ?? "http://localhost:8000/api/v1";
 
 export const SCHEDULE_INTERVALS = [
   { value: "minute", label: "Every Minute", interval_value: 1 },
